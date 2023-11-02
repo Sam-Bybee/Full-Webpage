@@ -134,3 +134,37 @@ a:not(#current a):hover {
     padding: 4px;
     width: 250px;
 }
+
+/* Boxes */
+#boxes {
+    height: 400px;
+}
+
+#boxes .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.box {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+i {
+    font-size: 225px;
+}
+
+.fa-html5 {
+    color: #d45632;
+}
+
+.fa-css3-alt {
+    color: #2d50dc;
+}
+
+.fa-js {
+    color: #f3df50;
+}
