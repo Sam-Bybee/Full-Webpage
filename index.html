@@ -120,7 +120,10 @@
       <aside class="sidebar">
         <div class="dark">
           <h3>Request A Quote</h3>
-          <form class="quote">
+          <!-- FormSubmit -->
+          <!-- FormSubmit allows for an email address to be added to the form tag so that when the form is submitted the content/data in the form will be sent to the email added on the end of the "formsubmit.co" URL (NOTE: The "method" set for hte form is POST not GET, because there is data being sent (AKA Posted) when the form request/submission is completed) -->
+          <!-- Syntax Example: https://formsubmit.co/your@email.com -->
+          <form class="quote" action= "https://formsubmit.co/samuel.bybee@stu.glasgow.kyschools.us" method="POST">
             <div>
               <label for="name">Name</label>
               <br>
